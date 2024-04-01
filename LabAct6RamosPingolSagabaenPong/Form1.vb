@@ -21,7 +21,7 @@
             p2.Top = Math.Min(formHeight - p2.Height, p2.Top + movementStep)
         End If
 
-        If ball.Bounds.IntersectWith() Then
+        'If ball.Bounds.IntersectWith() Then
 
     End Sub
 End Class
