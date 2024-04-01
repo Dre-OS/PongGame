@@ -40,11 +40,13 @@ Partial Class Form1
         Me.PictureBox16 = New System.Windows.Forms.PictureBox()
         Me.p2 = New System.Windows.Forms.PictureBox()
         Me.p1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
         Me.p2score = New System.Windows.Forms.Label()
         Me.p1score = New System.Windows.Forms.Label()
         Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,9 +65,11 @@ Partial Class Form1
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -230,24 +234,6 @@ Partial Class Form1
         Me.p1.TabIndex = 14
         Me.p1.TabStop = False
         '
-        'PictureBox19
-        '
-        Me.PictureBox19.BackColor = System.Drawing.Color.White
-        Me.PictureBox19.Location = New System.Drawing.Point(-6, -10)
-        Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(1057, 19)
-        Me.PictureBox19.TabIndex = 15
-        Me.PictureBox19.TabStop = False
-        '
-        'PictureBox20
-        '
-        Me.PictureBox20.BackColor = System.Drawing.Color.White
-        Me.PictureBox20.Location = New System.Drawing.Point(-18, 754)
-        Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(1057, 21)
-        Me.PictureBox20.TabIndex = 16
-        Me.PictureBox20.TabStop = False
-        '
         'p2score
         '
         Me.p2score.AutoSize = True
@@ -281,6 +267,42 @@ Partial Class Form1
         Me.PictureBox17.TabIndex = 19
         Me.PictureBox17.TabStop = False
         '
+        'PictureBox20
+        '
+        Me.PictureBox20.BackColor = System.Drawing.Color.White
+        Me.PictureBox20.Location = New System.Drawing.Point(-18, 754)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(1057, 21)
+        Me.PictureBox20.TabIndex = 16
+        Me.PictureBox20.TabStop = False
+        '
+        'PictureBox19
+        '
+        Me.PictureBox19.BackColor = System.Drawing.Color.White
+        Me.PictureBox19.Location = New System.Drawing.Point(-18, -10)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(1057, 19)
+        Me.PictureBox19.TabIndex = 15
+        Me.PictureBox19.TabStop = False
+        '
+        'PictureBox18
+        '
+        Me.PictureBox18.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.PictureBox18.Location = New System.Drawing.Point(1029, -10)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(10, 778)
+        Me.PictureBox18.TabIndex = 20
+        Me.PictureBox18.TabStop = False
+        '
+        'PictureBox21
+        '
+        Me.PictureBox21.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.PictureBox21.Location = New System.Drawing.Point(-4, -10)
+        Me.PictureBox21.Name = "PictureBox21"
+        Me.PictureBox21.Size = New System.Drawing.Size(10, 778)
+        Me.PictureBox21.TabIndex = 21
+        Me.PictureBox21.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -310,6 +332,8 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.PictureBox18)
+        Me.Controls.Add(Me.PictureBox21)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -330,9 +354,11 @@ Partial Class Form1
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.p2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.p1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -356,9 +382,11 @@ Partial Class Form1
     Friend WithEvents PictureBox16 As PictureBox
     Friend WithEvents p2 As PictureBox
     Friend WithEvents p1 As PictureBox
-    Friend WithEvents PictureBox19 As PictureBox
-    Friend WithEvents PictureBox20 As PictureBox
     Friend WithEvents p2score As Label
     Friend WithEvents p1score As Label
     Friend WithEvents PictureBox17 As PictureBox
+    Friend WithEvents PictureBox20 As PictureBox
+    Friend WithEvents PictureBox19 As PictureBox
+    Friend WithEvents PictureBox18 As PictureBox
+    Friend WithEvents PictureBox21 As PictureBox
 End Class
