@@ -1,6 +1,7 @@
 ﻿Public Class Form1
     Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
         Dim movementStep As Integer = 50
+        Dim Score As Integer = 0
         Dim formWidth As Integer = Me.ClientSize.Width
         Dim formHeight As Integer = Me.ClientSize.Height
 
@@ -19,5 +20,8 @@
         If e.KeyCode = Keys.Down AndAlso p2.Bottom < formHeight Then
             p2.Top = Math.Min(formHeight - p2.Height, p2.Top + movementStep)
         End If
+
+        'If ball.Bounds.IntersectWith() Then
+
     End Sub
 End Class

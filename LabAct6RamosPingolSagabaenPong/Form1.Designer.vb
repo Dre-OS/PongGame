@@ -42,11 +42,11 @@ Partial Class Form1
         Me.p1 = New System.Windows.Forms.PictureBox()
         Me.p2score = New System.Windows.Forms.Label()
         Me.p1score = New System.Windows.Forms.Label()
-        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.ball = New System.Windows.Forms.PictureBox()
         Me.PictureBox20 = New System.Windows.Forms.PictureBox()
         Me.PictureBox19 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
+        Me.PicScore2 = New System.Windows.Forms.PictureBox()
+        Me.PicScore1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -65,11 +65,11 @@ Partial Class Form1
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ball, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PicScore2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PicScore1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -258,14 +258,14 @@ Partial Class Form1
         Me.p1score.TabIndex = 18
         Me.p1score.Text = "0"
         '
-        'PictureBox17
+        'ball
         '
-        Me.PictureBox17.BackColor = System.Drawing.Color.White
-        Me.PictureBox17.Location = New System.Drawing.Point(492, 344)
-        Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(29, 32)
-        Me.PictureBox17.TabIndex = 19
-        Me.PictureBox17.TabStop = False
+        Me.ball.BackColor = System.Drawing.Color.White
+        Me.ball.Location = New System.Drawing.Point(492, 344)
+        Me.ball.Name = "ball"
+        Me.ball.Size = New System.Drawing.Size(29, 32)
+        Me.ball.TabIndex = 19
+        Me.ball.TabStop = False
         '
         'PictureBox20
         '
@@ -285,23 +285,23 @@ Partial Class Form1
         Me.PictureBox19.TabIndex = 15
         Me.PictureBox19.TabStop = False
         '
-        'PictureBox18
+        'PicScore2
         '
-        Me.PictureBox18.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox18.Location = New System.Drawing.Point(1029, -10)
-        Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(10, 778)
-        Me.PictureBox18.TabIndex = 20
-        Me.PictureBox18.TabStop = False
+        Me.PicScore2.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.PicScore2.Location = New System.Drawing.Point(1029, -10)
+        Me.PicScore2.Name = "PicScore2"
+        Me.PicScore2.Size = New System.Drawing.Size(10, 778)
+        Me.PicScore2.TabIndex = 20
+        Me.PicScore2.TabStop = False
         '
-        'PictureBox21
+        'PicScore1
         '
-        Me.PictureBox21.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox21.Location = New System.Drawing.Point(-4, -10)
-        Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(10, 778)
-        Me.PictureBox21.TabIndex = 21
-        Me.PictureBox21.TabStop = False
+        Me.PicScore1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.PicScore1.Location = New System.Drawing.Point(-4, -10)
+        Me.PicScore1.Name = "PicScore1"
+        Me.PicScore1.Size = New System.Drawing.Size(10, 778)
+        Me.PicScore1.TabIndex = 21
+        Me.PicScore1.TabStop = False
         '
         'Form1
         '
@@ -309,7 +309,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1034, 761)
-        Me.Controls.Add(Me.PictureBox17)
+        Me.Controls.Add(Me.ball)
         Me.Controls.Add(Me.p1score)
         Me.Controls.Add(Me.p2score)
         Me.Controls.Add(Me.PictureBox20)
@@ -332,8 +332,8 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.PictureBox18)
-        Me.Controls.Add(Me.PictureBox21)
+        Me.Controls.Add(Me.PicScore2)
+        Me.Controls.Add(Me.PicScore1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -354,11 +354,11 @@ Partial Class Form1
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.p2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.p1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ball, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PicScore2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PicScore1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -384,9 +384,9 @@ Partial Class Form1
     Friend WithEvents p1 As PictureBox
     Friend WithEvents p2score As Label
     Friend WithEvents p1score As Label
-    Friend WithEvents PictureBox17 As PictureBox
+    Friend WithEvents ball As PictureBox
     Friend WithEvents PictureBox20 As PictureBox
     Friend WithEvents PictureBox19 As PictureBox
-    Friend WithEvents PictureBox18 As PictureBox
-    Friend WithEvents PictureBox21 As PictureBox
+    Friend WithEvents PicScore2 As PictureBox
+    Friend WithEvents PicScore1 As PictureBox
 End Class
