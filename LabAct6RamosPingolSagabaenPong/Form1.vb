@@ -44,5 +44,8 @@
         If Ball.Bounds.IntersectsWith(p1.Bounds) OrElse Ball.Bounds.IntersectsWith(p2.Bounds) Then
             ballSpeedX *= -1 ' Reverse horizontal direction
         End If
+
+        'If ball.Bounds.IntersectWith() Then
+
     End Sub
 End Class
