@@ -70,6 +70,9 @@
         If Ball.Bounds.IntersectsWith(p1.Bounds) OrElse Ball.Bounds.IntersectsWith(p2.Bounds) Then
             ballSpeedX *= -1
         End If
+
+        'If ball.Bounds.IntersectWith() Then
+
     End Sub
     Private Sub ResetBall()
         Ball.Left = formWidth \ 2
